@@ -14,6 +14,7 @@ body {
 
 #about {
   margin: 40px;
+  color: white;
 }
 
 form {
@@ -70,14 +71,14 @@ form {
 }
 
 .about-card p,
-h1,
-h4 {
+h1 {
   color: #aaff00 !important;
-  margin-top: 65px !important;
+  margin-top: 85px !important;
 }
 
-.card-text {
-  color: white;
+.card-text,
+.card-title {
+  color: white !important;
 }
 
 .card-img {
