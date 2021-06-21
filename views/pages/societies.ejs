@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+    <link rel="stylesheet" href="/css/identification.css" />
+    <link rel="stylesheet" href="/css/societies.css" />
+
+    <title>Societies in Turkey</title>
+  </head>
+  <body>
+    <%- include('../partials/logo'); %>
+
+    <div class="societies">
+      <% if (locals.data) { for (let i = 0; i < data.length; i++) { %>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="<%=data[i].image%>"
+              alt="Image of <%=data[i].name%>"
+              style="width: 90%; border-radius: 10px; margin-top: 40%"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><%=data[i].name%></h5>
+              <p class="card-text"><%=data[i].description%></p>
+              <a
+                href="<%=data[i].link%>"
+                target="_blank"
+                class="btn btn-success"
+                >Support them!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <%} }%>
+    </div>
+    <form method="get" action="/societies">
+      <%for(let i = 0; i < locals.totalPages; i++) {%>
+      <input
+        class="btn-success btn-sm"
+        type="submit"
+        name="page"
+        value="<%=i + 1%>"
+      />
+      <%}%>
+    </form>
+    <footer><%- include('../partials/footer'); %></footer>
+  </body>
+</html>

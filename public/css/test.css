@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.py-2 {
+  font-size: 12px;
+}
+
+.q-container > p {
+  font-size: 10px;
+}
+
+.question {
+  width: 100%;
+}
+
+.options {
+  position: relative;
+  padding-left: 20px;
+}
+
+#options label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.options input {
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 10px;
+  width: 10px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.options input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.options .checkmark:after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  display: block;
+  background: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border-radius: 50%;
+  transform: translate(-40%, -40%) scale(0);
+  transition: 300ms ease-in-out 0s;
+}
+
+.options input[type="radio"]:checked ~ .checkmark {
+  background: #21bf73;
+  transition: 300ms ease-in-out 0s;
+}
+
+.btn-primary {
+  background-color: #555;
+  color: #ddd;
+  border: 1px solid #ddd;
+}
+
+.btn-primary:hover {
+  background-color: #21bf73;
+  border: 1px solid #21bf73;
+}
+
+.btn-success {
+  padding: 5px 25px;
+  background-color: #21bf73;
+}
+
+@media (max-width: 576px) {
+  .question {
+    width: 100%;
+    word-spacing: 2px;
+  }
+}
