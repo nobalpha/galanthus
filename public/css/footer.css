@@ -76,6 +76,10 @@ h4 {
   margin-top: 65px !important;
 }
 
+.card-text {
+  color: white;
+}
+
 .card-img {
   filter: brightness(50%);
   border-radius: 30px !important;
@@ -127,7 +131,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #6ef500;
+  color: white;
   font-family: "Open Sans", sans-serif;
   margin: 0;
   line-height: 1.3;
@@ -739,7 +743,7 @@ label {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1100px) {
   .hexagon-item {
     float: none;
     margin: 0 auto 50px;
