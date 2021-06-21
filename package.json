@@ -4,9 +4,8 @@
   "description": "A simple Node app built on fastify, instantly up and running.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "debug": "nodemon server.js",
-    "client": "nodemon client.js"
+    "start": "node index.js",
+    "debug": "nodemon index.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
