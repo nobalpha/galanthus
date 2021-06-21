@@ -151,5 +151,5 @@ app.get("/reports", async function (req, res) {
 app.use("/data", router);
 app.use(express.static(__dirname + "/public"));
 
-app.listen(8080);
+app.listen(80);
 console.log("Server is listening on port 8080");
