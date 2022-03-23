@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <%- include('../partials/head'); %>
+    <head>
+        <%- include('../partials/head'); %>
 
-    <link rel="stylesheet" href="/css/test.css" />
-    <title>Gamification</title>
-  </head>
-  <body>
-    <%if (!locals.submitted) {%>
-    <div class="questions">
-      <% for(let i = 0; i < data.length; i++) {%>
-      <div class="q-container mt-sm-5 my-1">
-        <div class="question pl-sm-1 pt-2">
-          <div class="py-2" style="text-align: center">
-            <b><%=data[i].question%></b>
-          </div>
-          <div
-            class="ml-sm-3 pt-sm-0 pt-3"
-            style="text-align: center"
-            id="options"
-          >
-            <form method="post" action="/test">
-              <%for (let j = 0; j < data[i].answers.length; j++) { %>
-              <label class="options" style="margin-bottom: 6px"
-                ><%= data[i].answers[j] %>
+        <link rel="stylesheet" href="/css/test.css" />
+        <title>Gamification</title>
+    </head>
+    <body>
+        <%if (!locals.submitted) {%>
+        <form method="post" action="/test">
+            <% for(let i = 0; i < data.length; i++) {%>
+            <!--<div class="question">
+                <h2>Who is the main character of Harry Potter?</h2>
                 <input
-                  type="radio"
-                  name="<%= data[i]._id %>"
-                  value="<%= j + 1 %>"
+                    id="choices-<%=i%>"
+                    type="radio"
+                    name="<%=i%>"
+                    value="choices-0"
+                /><label for="choices-<%=i%>">Harry Potter</label>
+            </div>-->
+
+            <div class="question">
+                <div class="py-2" style="text-align: center">
+                    <h2><%=data[i].question%></h2>
+                </div>
+
+                <%for (let j = 0; j < data[i].answers.length; j++) { %>
+                <input
+                    id="choices-<%=i%>-<%=j%>"
+                    class="choices"
+                    type="radio"
+                    name="<%= data[i]._id %>"
+                    value="<%= j + 1 %>"
                 />
-                <span class="checkmark" style="left: auto"></span>
-              </label>
-              <%}}%> <%for(let i = 0; i < locals.totalPages; i++) {%>
-              <input
+                <label for="choices-<%=i%>-<%=j%>"
+                    ><%= data[i].answers[j] %></label
+                >
+                <%}%>
+            </div>
+            <%}%> <%for(let i = 0; i < locals.totalPages; i++) {%>
+            <input
                 class="btn-primary btn-sm"
                 type="submit"
                 name="page"
                 value="<%=i + 1%>"
-              />
-              <%}%>
-              <input
+            />
+            <%}%>
+            <input
                 class="btn-primary btn-sm"
                 type="submit"
                 name="test"
                 value="submit"
-              />
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <%} else {%>
-    <div style="margin-left: auto; margin-right: auto; text-align: center">
-      <p>Yay! You're like a/an <%=match%></p>
-      <img src="<%=link%>" alt="Image of <%=match%>" width="300px" />
-    </div>
-    <% }%>
+            />
+        </form>
 
-    <footer><%- include('../partials/footer'); %></footer>
-  </body>
+        <%} else {%>
+        <div style="margin-left: auto; margin-right: auto; text-align: center">
+            <p>Yay! You're like a/an <%=match%></p>
+            <img src="<%=link%>" alt="Image of <%=match%>" width="300px" />
+        </div>
+        <% }%>
+
+        <footer><%- include('../partials/footer'); %></footer>
+    </body>
 </html>

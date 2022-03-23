@@ -3,6 +3,7 @@
   <head>
     <%- include('../partials/head'); %>
     <link rel="stylesheet" href="/css/identification.css" />
+    <title>Plant Identification</title>
   </head>
   <body>
     <%- include('../partials/logo'); %>
@@ -27,9 +28,14 @@
         <i id="submit" class="fa fa-paper-plane" aria-hidden="true"></i> And
         identify it!
       </label>
-      <input type="submit" id="submit" class="btn-submit" />
+      <input
+        type="submit"
+        id="submit"
+        class="btn-submit"
+        onclick="alert('Image successfully uploaded!')"
+      />
     </form>
-    <% if(locals.attributes) { %>
+    <% if(typeof locals.attributes !== "undefined") { %>
 
     <div class="a-box">
       <div class="img-container">
@@ -56,7 +62,25 @@
         </div>
       </div>
     </div>
-    <% } %>
+    <% } else if (typeof locals.extension !== "undefined") { %>
+    <div class="a-box">
+      <div class="img-container">
+        <div class="img-inner">
+          <div class="inner-skew">
+            <img src="/temp/temp.<%=extension%>" />
+          </div>
+        </div>
+      </div>
+      <div class="text-container">
+        <div class="attr-container">
+          <%if(typeof scientificName !== "undefined") {%>
+          <h2><%=scientificName%></h2>
+          <%}%>
+          <p>Couldn't find details of the plant...</p>
+        </div>
+      </div>
+    </div>
+    <%}%>
     <footer><%- include('../partials/footer'); %></footer>
   </body>
 </html>

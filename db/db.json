@@ -1,504 +1,645 @@
 {
-  "questions": [
-    {
-      "_id": 0,
-      "question": "What is your eye color?",
-      "answers": ["Blue", "Brown", "Green", "Hazel"]
-    },
-    {
-      "_id": 1,
-      "question": "How do you like to travel more?",
-      "answers": ["By Train", "By Plane", "By Car"]
-    },
-    {
-      "_id": 2,
-      "question": "In which environment do you prefer to be?",
-      "answers": ["In a forest", "In a desert", "On a seashore"]
-    },
-    {
-      "_id": 3,
-      "question": "What kind of runner are you?",
-      "answers": ["Fast", "Long", "Running? No no no..."]
-    },
-    {
-      "_id": 4,
-      "question": "Which feature of the following is better for you?",
-      "answers": ["Ambitious", "Meek", "Determined"]
-    },
-    {
-      "_id": 5,
-      "question": "Do you like swimming?",
-      "answers": ["Yes", "No"]
-    },
-    {
-      "_id": 6,
-      "question": "What is your hair color?",
-      "answers": ["Black-Grey", "Brown", "Auburn-Yellow", "White"]
-    },
-    {
-      "_id": 7,
-      "question": "What is your height?",
-      "answers": ["Tall", "Medium", "Short"]
-    },
-    {
-      "_id": 8,
-      "question": "Which food group do you like more?",
-      "answers": ["Meat", "Vegetable", "Seafood"]
-    },
-    {
-      "_id": 9,
-      "question": "If you chose a profession, what would it be?",
-      "answers": ["Pilot", "Athlet", "Swimmer"]
-    },
-    {
-      "_id": 10,
-      "question": "In what weather do you feel happier?",
-      "answers": ["Sunny-Clear", "Rainy", "Cloudy"]
-    },
-    {
-      "_id": 11,
-      "question": "What is your average weight?",
-      "answers": ["55 or below", "Between 55 andd 70", "Above 70"]
-    },
-    {
-      "_id": 12,
-      "question": "Are you one of those who wear a lot of clothes or are T-shirts and shorts enough for you?",
-      "answers": [
-        "I wear all the clothes that I can.",
-        "Only t-shirts and shorts..."
-      ]
-    },
-    {
-      "_id": 13,
-      "question": "Which of the following senses do you think you use better?",
-      "answers": ["Vision", "Hearing", "Smell"]
-    },
-    {
-      "_id": 14,
-      "question": "Which animal do you think is more free?",
-      "answers": ["Urubu", "Cheetah", "Mediterranean monk seal"]
-    }
-  ],
-  "societies": [
-    {
-      "_id": 0,
-      "name": "UNESCO",
-      "description": "The United Nations Educational, Scientific and Cultural Organization is an international expert organization of the United Nations, which was established on 16 November 1945 after the damage and massacres that took place in World War II.",
-      "link": "https://www.unesco.org",
-      "image": "https://scm.bz/wp-content/uploads/2017/04/UNESCO.jpg"
-    },
-    {
-      "_id": 1,
-      "name": "DHKD",
-      "description": "It is an association founded in 1975 in order to realize the value of Turkey's extraordinarily rich plant and animal species and their natural habitats and to take them under protection.",
-      "link": "",
-      "image": "https://upload.wikimedia.org/wikipedia/tr/f/ff/Dhkd.JPG"
-    },
-    {
-      "_id": 2,
-      "name": "Greenpeace",
-      "description": "Greenpeace is an international non-governmental environmental protection organization located in more than 55 countries around the world.",
-      "link": "https://www.greenpeace.org",
-      "image": "https://hakanatabas.com/wp-content/uploads/2021/05/gp.jpg"
-    },
-    {
-      "_id": 3,
-      "name": "WWF",
-      "description": "WWF or World Wide Fund for Nature is an international non-governmental organization created in 1961, dedicated to environmental protection and sustainable development.",
-      "link": "https://www.wwf.org",
-      "image": "https://d1diae5goewto1.cloudfront.net/_skins/capetown/img/logo.png"
-    },
-    {
-      "_id": 4,
-      "name": "TEMA",
-      "description": "The Turkish Erosion Control Foundation, better known as TEMA in short, is a non-governmental organization for the reforestation and protection of natural habitats in Turkey.",
-      "link": "https://www.tema.org.tr/",
-      "image": "https://cdn-tema.mncdn.com/Uploads/Cms/tema-logo-cerceve.jpeg"
-    },
-    {
-      "_id": 5,
-      "name": "ÇEKÜL",
-      "description": "ÇEKÜL is a cultural heritage foundation in Turkey. It is the abbreviation of Foundation for the Protection and Promotion of Environmental and Cultural Values.",
-      "link": "https://www.cekulvakfi.org.tr/",
-      "image": "https://pbs.twimg.com/profile_images/1224598496684191746/hMIHtsmY_400x400.jpg"
-    },
-    {
-      "_id": 6,
-      "name": "Doğa Derneği",
-      "description": "Nature association; Not seeing nature and humans separately, it works to keep nature alive throughout Turkey to think about natural areas.",
-      "link": "https://www.dogadernegi.org/",
-      "image": "https://pbs.twimg.com/profile_images/1277985013724659719/_TwyuVG9_400x400.jpg"
-    },
-    {
-      "_id": 7,
-      "name": "TTKD",
-      "description": "The Association for the Protection of Nature of Turkey, known as TTKD in short, has been working since 1955 for the solution of environmental problems in Turkey.",
-      "link": "http://www.ttkder.org.tr/",
-      "image": "https://pbs.twimg.com/profile_images/946424218111086593/0dVwTwQ1_400x400.jpg"
-    },
-    {
-      "_id": 8,
-      "name": "TÇV",
-      "description": "The Foundation for the Protection of the Environment of Turkey, known as EFT in short, has been conducting studies for the protection and development of the environment since 1978.",
-      "link": "http://www.cevre.org.tr/",
-      "image": "https://lh3.googleusercontent.com/proxy/cwXQRZ3mpsoE3h8zz2xPKnJRs5K3DW01Ynxbtk3kENACxtmG-v4gHr5Z-mZ1ZuXZXfWAUKIx0_aYcFWN18xtY4rhIUqsonpXvvO8qw"
-    },
-    {
-      "_id": 9,
-      "name": "ÇEVKO",
-      "description": "The Foundation for Environmental Protection and Packaging Waste Utilization, known as ÇEVKO in short, has been conducting studies since 1991 to protect the environment and evaluate packaging wastes.",
-      "link": "https://www.cevko.org.tr/",
-      "image": "https://i0.wp.com/bi-ozet.com/wp-content/uploads/2019/12/c387evko-logo.jpg?fit=1200%2C470&ssl=1"
-    },
-    {
-      "_id": 10,
-      "name": "TURMEPA",
-      "description": "Turkish Marine Environment Protection Association, known as TURMEPA in short, is an association established on April 8, 1994 in order to make the protection of Turkey's coasts and seas a national priority and leave a livable Turkey embraced by clean seas to future generations.",
-      "link": "https://www.turmepa.org.tr/",
-      "image": "https://www.turmepa.org.tr/getmedia/f54abd61-bc1a-4c88-b2e7-425b9f03aa4a/icc.jpg?width=1738&height=1637&ext=.jpg"
-    },
-    {
-      "_id": 11,
-      "name": "TÜDAV",
-      "description": "Turkish Marine Research Foundation, known as TÜDAV in short, is an association established in 1997 to conduct research on marine sciences and protect marine life in Turkey.",
-      "link": "https://tudav.org/",
-      "image": "https://pbs.twimg.com/profile_images/2990220357/1d1b32517bdefe61bea602e760b7cc5d.jpeg"
-    },
-    {
-      "_id": 12,
-      "name": "TÜRÇEV",
-      "description": "Turkey Environmental Education Foundation, known as TÜRÇEV in short, is an association established in 1933 to promote the natural beauty of Turkey and to enrich and protect the world in the environment.",
-      "link": "http://www.turcev.org.tr/",
-      "image": "https://lh3.googleusercontent.com/proxy/_yEDvkRWiixsO--vE8Q9c-HSFsEaag5AcoSAtR87FuIL32dJ2o6gtANkIH0zftRKWOWHxJ5_gCC-BVb-R3FM6n0XfvUpwViH4Dbwyy75e9VbYKEWVsQ_gw"
-    }
-  ],
-  "similarity": [
-    {
-      "_id": 0,
-      "value": "311111232243221",
-      "name": "Lynx"
-    },
-    {
-      "_id": 1,
-      "value": "321111212242122",
-      "name": "Leopard"
-    },
-    {
-      "_id": 2,
-      "value": "311111232233131",
-      "name": "Persian Tiger"
-    },
-    {
-      "_id": 3,
-      "value": "321121212244122",
-      "name": "Cheetah"
-    },
-    {
-      "_id": 4,
-      "value": "321121212241311",
-      "name": "Catamountain"
-    },
-    {
-      "_id": 5,
-      "value": "233113323321232",
-      "name": "Mediterranean Monk Seal"
-    },
-    {
-      "_id": 6,
-      "value": "123321111121112",
-      "name": "Urubu"
-    },
-    {
-      "_id": 7,
-      "value": "222122212222132",
-      "name": "Asiatic Wild Ass"
-    },
-    {
-      "_id": 8,
-      "value": "222222212221131",
-      "name": "African Wild Ass"
-    },
-    {
-      "_id": 9,
-      "value": "311312232224131",
-      "name": "Mustang"
-    },
-    {
-      "_id": 10,
-      "value": "212212232223131",
-      "name": "Red Deer"
-    },
-    {
-      "_id": 11,
-      "value": "212212232223122",
-      "name": "Fellow Deer"
-    },
-    {
-      "_id": 12,
-      "value": "212112232222121",
-      "name": "Chamois"
-    },
-    {
-      "_id": 13,
-      "value": "311212232222212",
-      "name": "Gazelle"
-    },
-    {
-      "_id": 14,
-      "value": "233112323321311",
-      "name": "Beaver"
-    },
-    {
-      "_id": 15,
-      "value": "233213323321312",
-      "name": "Coypu"
-    },
-    {
-      "_id": 16,
-      "value": "212111233221312",
-      "name": "Indian Crested Porcupine"
-    },
-    {
-      "_id": 17,
-      "value": "321111212222222",
-      "name": "Hyena"
-    },
-    {
-      "_id": 18,
-      "value": "321111212213212",
-      "name": "Caracal"
-    },
-    {
-      "_id": 19,
-      "value": "113111131143112",
-      "name": "Short-toed Snake Eagle"
-    },
-    {
-      "_id": 20,
-      "value": "123321111123112",
-      "name": "Griffon Vulture"
-    }
-  ],
-  "news": {
-    "recurrent": [
-      {
-        "_id": 0,
-        "title": "Tug-of-War Receptors for Sour Taste in Fruit Flies Sheds Light on Human Taste Biology",
-        "description": "Tug-of-War Receptors for Sour Taste in Fruit Flies Sheds Light on Human Taste Biology",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210618091654.htm"
-      },
-      {
-        "_id": 1,
-        "title": "Swim First, Hunt Later: Young Weddell Seals Need to Practice Navigating Before Hunting",
-        "description": "Swim First, Hunt Later: Young Weddell Seals Need to Practice Navigating Before Hunting",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210617143647.htm"
-      },
-      {
-        "_id": 2,
-        "title": "Animals' Ability to Adapt Their Habitats Key to Survival Amid Climate Change",
-        "description": "Animals' Ability to Adapt Their Habitats Key to Survival Amid Climate Change",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210618153512.htm"
-      },
-      {
-        "_id": 3,
-        "title": "Footprints Discovered from the Last Dinosaurs to Walk on UK Soil",
-        "description": "Footprints Discovered from the Last Dinosaurs to Walk on UK Soil",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210618134033.htm"
-      },
-      {
-        "_id": 4,
-        "title": "Excess Nitrogen Puts Butterflies at Risk",
-        "description": "Excess Nitrogen Puts Butterflies at Risk",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210617133804.htm"
-      },
-      {
-        "_id": 5,
-        "title": "Social Secrets of Killer Whales Discovered Using Drones",
-        "description": "Social Secrets of Killer Whales Discovered Using Drones",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210616191525.htm"
-      },
-      {
-        "_id": 6,
-        "title": "Bycatch Risk for Dolphins and Porpoises in Global Small-Scale Fisheries",
-        "description": "Bycatch Risk for Dolphins and Porpoises in Global Small-Scale Fisheries",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210615132138.htm"
-      },
-      {
-        "_id": 7,
-        "title": "Butterflies and Moths Have Difficulty Adjusting to a Rapidly Changing Climate",
-        "description": "Butterflies and Moths Have Difficulty Adjusting to a Rapidly Changing Climate",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210610162410.htm"
-      },
-      {
-        "_id": 8,
-        "title": "Excess Nitrogen Puts Butterflies at Risk",
-        "description": "Excess Nitrogen Puts Butterflies at Risk",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210617133804.htm"
-      },
-      {
-        "_id": 9,
-        "title": "Climate Change: The Long View",
-        "description": "Climate Change: The Long View",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210615145604.htm"
-      },
-      {
-        "_id": 10,
-        "title": "Bycatch Risk for Dolphins and Porpoises in Global Small-Scale Fisheries",
-        "description": "Bycatch Risk for Dolphins and Porpoises in Global Small-Scale Fisheries",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210615132138.htm"
-      },
-      {
-        "_id": 11,
-        "title": "Declining Growth Rates of Global Coral Reef Ecosystems",
-        "description": "Declining Growth Rates of Global Coral Reef Ecosystems",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210610135701.htm"
-      },
-      {
-        "_id": 12,
-        "title": "Will history repeat in a dry Klamath Basin this summer?",
-        "description": "This year\u2019s drought is worse than in 2001, when political and environmental tensions exploded into the national spotlight.",
-        "link": "https://grist.org/extreme-weather/will-history-repeat-in-a-dry-klamath-basin-this-summer/"
-      },
-      {
-        "_id": 13,
-        "title": "Earth911 Inspiration: Those Who Watch and Do Nothing",
-        "description": "Today\u2019s quote is from famed physicist Albert Einstein: \u201d The world will not be destroyed...\nThe post Earth911 Inspiration: Those Who Watch and Do Nothing appeared first on Earth911.",
-        "link": "https://earth911.com/inspire/earth911-inspiration-those-who-watch-and-do-nothing/"
-      },
-      {
-        "_id": 14,
-        "title": "Which Areas Will Climate Change Render Uninhabitable? Climate Models Alone Cannot Say",
-        "description": "Understanding how people will respond to climate dangers depends not only on top-down data, but also on bottom-up community engagement. \nThe post Which Areas Will Climate Change Render Uninhabitable? Climate Models Alone Cannot Say appeared first on State of the Planet.",
-        "link": "https://news.climate.columbia.edu/2021/06/17/uninhabitable-regions-climate-models/"
-      },
-      {
-        "_id": 15,
-        "title": "Resisting the new 'direct action' bill- reflections on the criminal justice bill protests of 1994",
-        "description": "Resisting the new 'direct action' bill- reflections on the criminal justice bill protests of 1994\n\nChannel\nComment\n\nSeth Wheeler\n18th June 2021\n\nTeaser Media\n\n\n\n",
-        "link": "https://theecologist.org/2021/jun/18/resisting-new-direct-action-bill-reflections-criminal-justice-bill-protests-1994"
-      },
-      {
-        "_id": 16,
-        "title": "How one project in Morocco is teaching women to harness the sun\u2019s energy",
-        "description": "Towards Equality: In Morocco, a training program in management and marketing of solar ovens and cookers is helping women in rural areas to create their own cooperatives, with the aim of contributing to inclusive and climate-resilient development in the regions and promoting gender equality",
-        "link": "https://www.independent.co.uk/climate-change/news/solar-energy-morocco-women-faredeic-b1867777.html"
-      },
-      {
-        "_id": 17,
-        "title": "New technique allows for identification of potential drugs to fight resistant bacteria",
-        "description": "Researchers have optimized a new technique that will allow scientists to evaluate how potential inhibitors work on antibiotic-resistant bacteria. This technique, called native state mass spectrometry, provides a quick way for scientists to identify the best candidates for effective clinical drugs, particularly in cases where bacteria can no longer be treated with antibiotics alone.",
-        "link": "https://www.sciencedaily.com/releases/2021/06/210620104208.htm"
-      }
+    "endemics": [
+        {
+            "_id": 0,
+            "title": "Quercus vulcanica",
+            "src": "https://www.atsovizyon.org.tr/wp-content/uploads/2020/11/turkiyenin-tek-kasnak-mesesi-ormanina-randevusuz-giris-yasak_2044_dhaphoto10-819x1024.jpg"
+        },
+        {
+            "_id": 1,
+            "title": "Liquidambar orientalis",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Liquidambar-styraciflua-foliage.jpg"
+        },
+        {
+            "_id": 2,
+            "title": "Quercus macranther",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Quercus_macranthera_Tbilisi.jpg/1200px-Quercus_macranthera_Tbilisi.jpg"
+        },
+        {
+            "_id": 3,
+            "title": "Phoenix theophrasti",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Phoenix_theophrasti_B.jpg/800px-Phoenix_theophrasti_B.jpg"
+        },
+        {
+            "_id": 4,
+            "title": "Abies nordmanniana",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Abiesnordmannianaequitrojani.jpg"
+        },
+        {
+            "_id": 5,
+            "title": "Gladiolus halophilus",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gladiolus_communis_002.jpg"
+        },
+        {
+            "_id": 6,
+            "title": "Fritillaria imperialis",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/YellowCrownImperials.JPG/1920px-YellowCrownImperials.JPG"
+        },
+        {
+            "_id": 7,
+            "title": "Thermopsis turcica",
+            "src": "https://static.wixstatic.com/media/e07aa2_37a14492cef940e8ac4c4566aeb19fd7~mv2.jpg/v1/fit/w_960%2Ch_720%2Cal_c%2Cq_80/file.jpg"
+        },
+        {
+            "_id": 8,
+            "title": "Romulea tempskyana",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Romulea_linaresii_subsp._graeca.jpg"
+        },
+        {
+            "_id": 9,
+            "title": "Liliaceae",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Fritillaria_affinis_000.jpg"
+        },
+        {
+            "_id": 10,
+            "title": "Osmunda regalis",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/OsmundaRegalis.jpg"
+        }
     ],
-    "links": [
-      "https://www.sciencedaily.com/news/plants_animals/animals/",
-      "https://www.sciencedaily.com/news/plants_animals/endangered_animals/",
-      "https://www.sciencedaily.com/news/plants_animals/extinction/"
+    "questions": [
+        {
+            "_id": 0,
+            "question": "What is your eye color?",
+            "answers": ["Blue", "Brown", "Green", "Hazel"]
+        },
+        {
+            "_id": 1,
+            "question": "How do you like to travel more?",
+            "answers": ["By Train", "By Plane", "By Car"]
+        },
+        {
+            "_id": 2,
+            "question": "In which environment do you prefer to be?",
+            "answers": ["In a forest", "In a desert", "On a seashore"]
+        },
+        {
+            "_id": 3,
+            "question": "What kind of runner are you?",
+            "answers": ["Fast", "Long", "Running? No no no..."]
+        },
+        {
+            "_id": 4,
+            "question": "Which feature of the following is better for you?",
+            "answers": ["Ambitious", "Meek", "Determined"]
+        },
+        {
+            "_id": 5,
+            "question": "Do you like swimming?",
+            "answers": ["Yes", "No"]
+        },
+        {
+            "_id": 6,
+            "question": "What is your hair color?",
+            "answers": ["Black-Grey", "Brown", "Auburn-Yellow", "White"]
+        },
+        {
+            "_id": 7,
+            "question": "What is your height?",
+            "answers": ["Tall", "Medium", "Short"]
+        },
+        {
+            "_id": 8,
+            "question": "Which food group do you like more?",
+            "answers": ["Meat", "Vegetable", "Seafood"]
+        },
+        {
+            "_id": 9,
+            "question": "If you chose a profession, what would it be?",
+            "answers": ["Pilot", "Athlet", "Swimmer"]
+        },
+        {
+            "_id": 10,
+            "question": "In what weather do you feel happier?",
+            "answers": ["Sunny-Clear", "Rainy", "Cloudy"]
+        },
+        {
+            "_id": 11,
+            "question": "What is your average weight?",
+            "answers": ["55 or below", "Between 55 andd 70", "Above 70"]
+        },
+        {
+            "_id": 12,
+            "question": "Are you one of those who wear a lot of clothes or are T-shirts and shorts enough for you?",
+            "answers": [
+                "I wear all the clothes that I can.",
+                "Only t-shirts and shorts..."
+            ]
+        },
+        {
+            "_id": 13,
+            "question": "Which of the following senses do you think you use better?",
+            "answers": ["Vision", "Hearing", "Smell"]
+        },
+        {
+            "_id": 14,
+            "question": "Which animal do you think is more free?",
+            "answers": ["Urubu", "Cheetah", "Mediterranean monk seal"]
+        }
     ],
-    "rss": [
-      "https://grist.org/feed/",
-      "http://earth911.com/feed/",
-      "https://news.climate.columbia.edu/feed/",
-      "https://theecologist.org/whats_new/feed",
-      "https://www.independent.co.uk/climate-change/news/rss",
-      "https://www.sciencedaily.com/rss/top/environment.xml"
-    ]
-  },
-  "reports": {
-    "static": [
-      {
-        "_id": 0,
-        "title": "Digital Ecosystems: Ecosystem-Oriented Architectures",
-        "description": "We view Digital Ecosystems to be the digital counterparts of biological\necosystems. Here, we are concerned with the creation of these Digital\nEcosystems, exploiting the self-organising properties of biological ecosystems\nto evolve high-level software applications. Therefore, we created the Digital\nEcosystem, a novel optimisation technique inspired by biological ecosystems,\nwhere the optimisation works at two levels: a first optimisation, migration of\nagents which are distributed in a decentralised peer-to-peer network, operating\ncontinuously in time; this process feeds a second optimisation based on\nevolutionary computing that operates locally on single peers and is aimed at\nfinding solutions to satisfy locally relevant constraints. The Digital\nEcosystem was then measured experimentally through simulations, with measures\noriginating from theoretical ecology, evaluating its likeness to biological\necosystems. This included its responsiveness to requests for applications from\nthe user base, as a measure of the ecological succession (ecosystem maturity).\nOverall, we have advanced the understanding of Digital Ecosystems, creating\nEcosystem-Oriented Architectures where the word ecosystem is more than just a\nmetaphor.",
-        "link": "http://arxiv.org/abs/1112.0204v1"
-      },
-      {
-        "_id": 1,
-        "title": "How do Software Ecosystems Co-Evolve? A view from OpenStack and beyond",
-        "description": "Much research that analyzes the evolution of a software ecosystem is confined\nto its own boundaries. Evidence shows, however, that software ecosystems\nco-evolve independently with other software ecosystems. In other words,\nunderstanding the evolution of a software ecosystem requires an especially\nastute awareness of its competitive landscape and much consideration for other\nsoftware ecosystems in related markets. A software ecosystem does not evolve in\ninsulation but with other software ecosystems. In this research, we analyzed\nthe OpenStack software ecosystem with a focal perspective that attempted to\nunderstand its evolution as a function of other software ecosystems. We\nattempted to understand and explain the evolution of OpenStack in relation to\nother software ecosystems in the cloud computing market. Our findings add to\ntheoretical knowledge in software ecosystems by identifying and discussing\nseven different mechanisms by which software ecosystems mutually influence each\nother: sedimentation and embeddedness of business relationships, strategic\nmanagement of the portfolio of business relationships, firms values and\nreputation as a partner, core technological architecture, design of the APIs,\ncompetitive replication of functionality and multi-homing. Research addressing\nthe evolution of software ecosystem should, therefore, acknowledge that\nsoftware ecosystems entangle with other software ecosystems in multiple ways,\neven with competing ones. A rigorous analysis of the evolution of a software\necosystem should not be solely confined to its inner boundaries.",
-        "link": "http://arxiv.org/abs/1808.06663v1"
-      },
-      {
-        "_id": 2,
-        "title": "Not even wrong: The spurious link between biodiversity and ecosystem\n  functioning",
-        "description": "Resolving the relationship between biodiversity and ecosystem functioning has\nbeen one of the central goals of modern ecology. Early debates about the\nrelationship were finally resolved with the advent of a statistical\npartitioning scheme that decomposed the biodiversity effect into a \"selection\"\neffect and a \"complementarity\" effect. We prove that both the biodiversity\neffect and its statistical decomposition into selection and complementarity are\nfundamentally flawed because these methods use a na\\\"ive null expectation based\non neutrality, likely leading to an overestimate of the net biodiversity\neffect, and they fail to account for the nonlinear abundance-ecosystem\nfunctioning relationships observed in nature. Furthermore, under such\nnonlinearity no statistical scheme can be devised to partition the biodiversity\neffects. We also present an alternative metric providing a more reasonable\nestimate of biodiversity effect. Our results suggest that all studies conducted\nsince the early 1990s likely overestimated the positive effects of biodiversity\non ecosystem functioning.",
-        "link": "http://arxiv.org/abs/1808.05643v1"
-      },
-      {
-        "_id": 3,
-        "title": "Possible Origin of Stagnation and Variability of Earth's Biodiversity",
-        "description": "The magnitude and variability of Earth's biodiversity have puzzled scientists\never since paleontologic fossil databases became available. We identify and\nstudy a model of interdependent species where both endogenous and exogenous\nimpacts determine the nonstationary extinction dynamics. The framework provides\nan explanation for the qualitative difference of marine and continental\nbiodiversity growth. In particular, the stagnation of marine biodiversity may\nresult from a global transition from an imbalanced to a balanced state of the\nspecies dependency network. The predictions of our framework are in agreement\nwith paleontologic databases.",
-        "link": "http://arxiv.org/abs/1410.2421v1"
-      },
-      {
-        "_id": 4,
-        "title": "Existence, multiplicity and stability of endemic states for an\n  age-structured S-I epidemic model",
-        "description": "We study an S--I type epidemic model in an age-structured population, with\nmortality due to the disease. A threshold quantity is found that controls the\nstability of the disease-free equilibrium and guarantees the existence of an\nendemic equilibrium. We obtain conditions on the age-dependence of the\nsusceptibility to infection that imply the uniqueness of the endemic\nequilibrium. An example with two endemic equilibria is shown. Finally, we\nanalyse numerically how the stability of the endemic equilibrium is affected by\nextra-mortality and by the possible periodicities induced by the demographic\nage-structure.",
-        "link": "http://arxiv.org/abs/0806.3424v2"
-      },
-      {
-        "_id": 5,
-        "title": "Large number of endemic equilibria for disease transmission models in\n  patchy environment",
-        "description": "We show that disease transmission models in a spatially heterogeneous\nenvironment can have a large number of coexisting endemic equilibria. A general\ncompartmental model is considered to describe the spread of an infectious\ndisease in a population distributed over several patches. For disconnected\nregions, many boundary equilibria may exist with mixed disease free and endemic\ncomponents, but these steady states usually disappear in the presence of\nspatial dispersal. However, if backward bifurcations can occur in the regions,\nsome partially endemic equilibria of the disconnected system move into the\ninterior of the nonnegative cone and persist with the introduction of mobility\nbetween the patches. We provide a mathematical procedure that precisely\ndescribes in terms of the local reproduction numbers and the connectivity\nnetwork of the patches, whether a steady state of the disconnected system is\npreserved or ceases to exist for low volumes of travel. Our results are\nillustrated on a patchy HIV transmission model with subthreshold endemic\nequilibria and backward bifurcation. We demonstrate the rich dynamical behavior\n(i.e., creation and destruction of steady states) and the presence of multiple\nstable endemic equilibria for various connection networks.",
-        "link": "http://arxiv.org/abs/1403.8032v1"
-      },
-      {
-        "_id": 6,
-        "title": "Correcting for the Effects of Interstellar Extinction",
-        "description": "This paper addresses the issue of how best to correct astronomical data for\nthe wavelength-dependent effects of Galactic interstellar extinction. The main\ngeneral features of extinction from the IR through the UV are reviewed, along\nwith the nature of observed spatial variations. The enormous range of\nextinction properties found in the Galaxy, particularly in the UV spectral\nregion, is illustrated. Fortunately, there are some tight constraints on the\nwavelength dependence of extinction and some general correlations between\nextinction curve shape and interstellar environment. These relationships\nprovide some guidance for correcting data for the effects of extinction.\nSeveral strategies for dereddening are discussed along with estimates of the\nuncertainties inherent in each method. In the Appendix, a new derivation of the\nwavelength dependence of an average Galactic extinction curve from the IR\nthrough the UV is presented, along with a new estimate of how this extinction\nlaw varies with the parameter R = A(V)/E(B-V). These curves represent the true\nmonochromatic wavelength dependence of extinction and, as such, are suitable\nfor dereddening IR--UV spectrophotometric data of any resolution, and can be\nused to derive extinction relations for any photometry system.",
-        "link": "http://arxiv.org/abs/astro-ph/9809387v1"
-      },
-      {
-        "_id": 7,
-        "title": "Multiple extinction routes in stochastic population models",
-        "description": "Isolated populations ultimately go extinct because of the intrinsic noise of\nelementary processes. In multi-population systems extinction of a population\nmay occur via more than one route. We investigate this generic situation in a\nsimple predator-prey (or infected-susceptible) model. The predator and prey\npopulations may coexist for a long time but ultimately both go extinct. In the\nfirst extinction route the predators go extinct first, whereas the prey thrive\nfor a long time and then also go extinct. In the second route the prey go\nextinct first causing a rapid extinction of the predators. Assuming large\nsub-population sizes in the coexistence state, we compare the probabilities of\neach of the two extinction routes and predict the most likely path of the\nsub-populations to extinction. We also suggest an effective three-state master\nequation for the probabilities to observe the coexistence state, the\npredator-free state and the empty state.",
-        "link": "http://arxiv.org/abs/1112.4331v2"
-      },
-      {
-        "_id": 8,
-        "title": "Deploying Technology to Save Endangered Languages",
-        "description": "Computer scientists working on natural language processing, native speakers\nof endangered languages, and field linguists to discuss ways to harness\nAutomatic Speech Recognition, especially neural networks, to automate\nannotation, speech tagging, and text parsing on endangered languages.",
-        "link": "http://arxiv.org/abs/1908.08971v2"
-      },
-      {
-        "_id": 9,
-        "title": "OCR Post Correction for Endangered Language Texts",
-        "description": "There is little to no data available to build natural language processing\nmodels for most endangered languages. However, textual data in these languages\noften exists in formats that are not machine-readable, such as paper books and\nscanned images. In this work, we address the task of extracting text from these\nresources. We create a benchmark dataset of transcriptions for scanned books in\nthree critically endangered languages and present a systematic analysis of how\ngeneral-purpose OCR tools are not robust to the data-scarce setting of\nendangered languages. We develop an OCR post-correction method tailored to ease\ntraining in this data-scarce setting, reducing the recognition error rate by\n34% on average across the three languages.",
-        "link": "http://arxiv.org/abs/2011.05402v1"
-      },
-      {
-        "_id": 10,
-        "title": "Cross-Domain Adaptation for Animal Pose Estimation",
-        "description": "In this paper, we are interested in pose estimation of animals. Animals\nusually exhibit a wide range of variations on poses and there is no available\nanimal pose dataset for training and testing. To address this problem, we build\nan animal pose dataset to facilitate training and evaluation. Considering the\nheavy labor needed to label dataset and it is impossible to label data for all\nconcerned animal species, we, therefore, proposed a novel cross-domain\nadaptation method to transform the animal pose knowledge from labeled animal\nclasses to unlabeled animal classes. We use the modest animal pose dataset to\nadapt learned knowledge to multiple animals species. Moreover, humans also\nshare skeleton similarities with some animals (especially four-footed mammals).\nTherefore, the easily available human pose dataset, which is of a much larger\nscale than our labeled animal dataset, provides important prior knowledge to\nboost up the performance on animal pose estimation. Experiments show that our\nproposed method leverages these pieces of prior knowledge well and achieves\nconvincing results on animal pose estimation.",
-        "link": "http://arxiv.org/abs/1908.05806v2"
-      },
-      {
-        "_id": 11,
-        "title": "PaSe: An Extensible and Inspectable DSL for Micro-Animations",
-        "description": "This paper presents PaSe, an extensible and inspectable DSL embedded in\nHaskell for expressing micro-animations. The philosophy of PaSe is to compose\nanimations based on sequential and parallel composition of smaller animations.\nThis differs from other animation libraries that focus more on sequential\ncomposition and have only limited forms of parallel composition. To provide\nsimilar flexibility as other animation libraries, PaSe features extensibility\nof operations and inspectability of animations. We present the features of PaSe\nwith a to-do list application, discuss the PaSe implementation, and argue that\nthe callback style of extensibility is detrimental for correctly combining PaSe\nfeatures. We contrast with the GreenSock Animation Platform, a\nprofessional-grade and widely used JavaScript animation library, to illustrate\nthis point.",
-        "link": "http://arxiv.org/abs/2002.02171v1"
-      },
-      {
-        "_id": 12,
-        "title": "Naturalness as a reasonable scientific principle in fundamental physics",
-        "description": "I aim to clarify the physical content and significance of naturalness.\nPhysicists' earliest understanding of naturalness, as an autonomy of scales\n(AoS) requirement provides the most cogent definition of naturalness and I will\nassert that i) this provides a uniform notion which undergirds a myriad\nprominent naturalness conditions, ii) this is a reasonable criterion to impose\non EFTs and iii) the successes and violations of naturalness are best\nunderstood when adhering to this notion of naturalness. I argue that this\nprinciple is neither an aesthetic nor a sociologically-influenced principle. I\ncontend that naturalness may only be plausibly argued to be an\naesthetic/sociological principle when formal measures of naturalness and their\nuse in physics communities are conflated with the central dogma of naturalness\n- the former may indeed be argued to be sociologically-influenced and somewhat\narbitrary - but these formal measures of naturalness are in fact less\nsuccessful than AoS naturalness. I put forward arguments as to why AoS\nnaturalness is well-defined and why it was reasonable for physicists to endorse\nthis naturalness principle on both theoretical and empirical grounds.\n  Up to date, no compelling reasons have appeared as to why the laws of nature\nshould generically decoupling into quasi-autonomous physical domains. A\ndecoupling of scales in the quantum realm is often claimed to be entailed by\nthe Decoupling Theorem (Cao and Schweber (1993)), yet I will show that this\ntheorem is too weak to underwrite quasi-autonomous physical domains in quantum\nfield theories because one should additionally impose that parameters be\nnatural. Violations of naturalness would then have ontological import -\nunnatural parameters would not be accurately described by EFTs but rather by\nfield theories exhibiting some kind of UV/IR interplay.",
-        "link": "http://arxiv.org/abs/1906.03036v1"
-      },
-      {
-        "_id": 13,
-        "title": "Natural Number Arithmetic in the Theory of Finite Sets",
-        "description": "We describe a theory of finite sets, and investigate the analogue of\nDedekind's theory of natural number systems (simply infinite systems) in this\ntheory. Unlike the infinitary case, in our theory, natural number systems come\nin differing lengths and with different closure properties. We give examples of\nnatural number systems incomparable in length; we define hierarchies of natural\nnumber systems closed under increasingly powerful functions; and we describe a\nmethod by which to construct natural number systems with given closure\nproperties. These natural number systems form natural models for various\nsystems of weak arithmetic.",
-        "link": "http://arxiv.org/abs/0711.2922v2"
-      }
+    "societies": [
+        {
+            "_id": 0,
+            "name": "UNESCO",
+            "description": "The United Nations Educational, Scientific and Cultural Organization is an international expert organization of the United Nations, which was established on 16 November 1945 after the damage and massacres that took place in World War II.",
+            "link": "https://www.unesco.org",
+            "image": "https://scm.bz/wp-content/uploads/2017/04/UNESCO.jpg"
+        },
+        {
+            "_id": 1,
+            "name": "DHKD",
+            "description": "It is an association founded in 1975 in order to realize the value of Turkey's extraordinarily rich plant and animal species and their natural habitats and to take them under protection.",
+            "link": "",
+            "image": "https://upload.wikimedia.org/wikipedia/tr/f/ff/Dhkd.JPG"
+        },
+        {
+            "_id": 2,
+            "name": "Greenpeace",
+            "description": "Greenpeace is an international non-governmental environmental protection organization located in more than 55 countries around the world.",
+            "link": "https://www.greenpeace.org",
+            "image": "https://hakanatabas.com/wp-content/uploads/2021/05/gp.jpg"
+        },
+        {
+            "_id": 3,
+            "name": "WWF",
+            "description": "WWF or World Wide Fund for Nature is an international non-governmental organization created in 1961, dedicated to environmental protection and sustainable development.",
+            "link": "https://www.wwf.org",
+            "image": "https://d1diae5goewto1.cloudfront.net/_skins/capetown/img/logo.png"
+        },
+        {
+            "_id": 4,
+            "name": "TEMA",
+            "description": "The Turkish Erosion Control Foundation, better known as TEMA in short, is a non-governmental organization for the reforestation and protection of natural habitats in Turkey.",
+            "link": "https://www.tema.org.tr/",
+            "image": "https://cdn-tema.mncdn.com/Uploads/Cms/tema-logo-cerceve.jpeg"
+        },
+        {
+            "_id": 5,
+            "name": "\u00c7EK\u00dcL",
+            "description": "\u00c7EK\u00dcL is a cultural heritage foundation in Turkey. It is the abbreviation of Foundation for the Protection and Promotion of Environmental and Cultural Values.",
+            "link": "https://www.cekulvakfi.org.tr/",
+            "image": "https://pbs.twimg.com/profile_images/1224598496684191746/hMIHtsmY_400x400.jpg"
+        },
+        {
+            "_id": 6,
+            "name": "Do\u011fa Derne\u011fi",
+            "description": "Nature association; Not seeing nature and humans separately, it works to keep nature alive throughout Turkey to think about natural areas.",
+            "link": "https://www.dogadernegi.org/",
+            "image": "https://pbs.twimg.com/profile_images/1277985013724659719/_TwyuVG9_400x400.jpg"
+        },
+        {
+            "_id": 7,
+            "name": "TTKD",
+            "description": "The Association for the Protection of Nature of Turkey, known as TTKD in short, has been working since 1955 for the solution of environmental problems in Turkey.",
+            "link": "http://www.ttkder.org.tr/",
+            "image": "https://pbs.twimg.com/profile_images/946424218111086593/0dVwTwQ1_400x400.jpg"
+        },
+        {
+            "_id": 8,
+            "name": "T\u00c7V",
+            "description": "The Foundation for the Protection of the Environment of Turkey, known as EFT in short, has been conducting studies for the protection and development of the environment since 1978.",
+            "link": "http://www.cevre.org.tr/",
+            "image": "http://www.cevre.org.tr/files/images/tcv-logo-symbol.png"
+        },
+        {
+            "_id": 9,
+            "name": "\u00c7EVKO",
+            "description": "The Foundation for Environmental Protection and Packaging Waste Utilization, known as \u00c7EVKO in short, has been conducting studies since 1991 to protect the environment and evaluate packaging wastes.",
+            "link": "https://www.cevko.org.tr/",
+            "image": "https://i0.wp.com/bi-ozet.com/wp-content/uploads/2019/12/c387evko-logo.jpg?fit=1200%2C470&ssl=1"
+        },
+        {
+            "_id": 10,
+            "name": "TURMEPA",
+            "description": "Turkish Marine Environment Protection Association, known as TURMEPA in short, is an association established on April 8, 1994 in order to make the protection of Turkey's coasts and seas a national priority and leave a livable Turkey embraced by clean seas to future generations.",
+            "link": "https://www.turmepa.org.tr/",
+            "image": "https://www.turmepa.org.tr/getmedia/f54abd61-bc1a-4c88-b2e7-425b9f03aa4a/icc.jpg?width=1738&height=1637&ext=.jpg"
+        },
+        {
+            "_id": 11,
+            "name": "T\u00dcDAV",
+            "description": "Turkish Marine Research Foundation, known as T\u00dcDAV in short, is an association established in 1997 to conduct research on marine sciences and protect marine life in Turkey.",
+            "link": "https://tudav.org/",
+            "image": "https://pbs.twimg.com/profile_images/2990220357/1d1b32517bdefe61bea602e760b7cc5d.jpeg"
+        },
+        {
+            "_id": 12,
+            "name": "T\u00dcR\u00c7EV",
+            "description": "Turkey Environmental Education Foundation, known as T\u00dcR\u00c7EV in short, is an association established in 1933 to promote the natural beauty of Turkey and to enrich and protect the world in the environment.",
+            "link": "http://www.turcev.org.tr/",
+            "image": "http://www.turcev.org.tr/V2/turcev_top.png"
+        }
     ],
-    "keywords": [
-      "ecosystem",
-      "biodiversity",
-      "endemic",
-      "extinction",
-      "endangered",
-      "animals",
-      "nature"
-    ]
-  }
+    "similarity": [
+        {
+            "_id": 0,
+            "value": "311111232243221",
+            "name": "Lynx"
+        },
+        {
+            "_id": 1,
+            "value": "321111212242122",
+            "name": "Leopard"
+        },
+        {
+            "_id": 2,
+            "value": "311111232233131",
+            "name": "Persian Tiger"
+        },
+        {
+            "_id": 3,
+            "value": "321121212244122",
+            "name": "Cheetah"
+        },
+        {
+            "_id": 4,
+            "value": "321121212241311",
+            "name": "Catamountain"
+        },
+        {
+            "_id": 5,
+            "value": "233113323321232",
+            "name": "Mediterranean Monk Seal"
+        },
+        {
+            "_id": 6,
+            "value": "123321111121112",
+            "name": "Urubu"
+        },
+        {
+            "_id": 7,
+            "value": "222122212222132",
+            "name": "Asiatic Wild Ass"
+        },
+        {
+            "_id": 8,
+            "value": "222222212221131",
+            "name": "African Wild Ass"
+        },
+        {
+            "_id": 9,
+            "value": "311312232224131",
+            "name": "Mustang"
+        },
+        {
+            "_id": 10,
+            "value": "212212232223131",
+            "name": "Red Deer"
+        },
+        {
+            "_id": 11,
+            "value": "212212232223122",
+            "name": "Fellow Deer"
+        },
+        {
+            "_id": 12,
+            "value": "212112232222121",
+            "name": "Chamois"
+        },
+        {
+            "_id": 13,
+            "value": "311212232222212",
+            "name": "Gazelle"
+        },
+        {
+            "_id": 14,
+            "value": "233112323321311",
+            "name": "Beaver"
+        },
+        {
+            "_id": 15,
+            "value": "233213323321312",
+            "name": "Coypu"
+        },
+        {
+            "_id": 16,
+            "value": "212111233221312",
+            "name": "Indian Crested Porcupine"
+        },
+        {
+            "_id": 17,
+            "value": "321111212222222",
+            "name": "Hyena"
+        },
+        {
+            "_id": 18,
+            "value": "321111212213212",
+            "name": "Caracal"
+        },
+        {
+            "_id": 19,
+            "value": "113111131143112",
+            "name": "Short-toed Snake Eagle"
+        },
+        {
+            "_id": 20,
+            "value": "123321111123112",
+            "name": "Griffon Vulture"
+        }
+    ],
+    "news": {
+        "recurrent": [
+            {
+                "_id": 0,
+                "title": "Climate Change and Human Pressure Mean Migration May Be 'No Longer Worth It'",
+                "description": "Climate Change and Human Pressure Mean Migration May Be 'No Longer Worth It'",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211018130400.htm"
+            },
+            {
+                "_id": 1,
+                "title": "Ecology of Fishing Jaguars: Rare Social Interactions",
+                "description": "Ecology of Fishing Jaguars: Rare Social Interactions",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211018082343.htm"
+            },
+            {
+                "_id": 2,
+                "title": "Don\u2019t Go Green With Envy, but Fish Might Be Able to Distinguish Color More Effectively Than Humans",
+                "description": "Don\u2019t Go Green With Envy, but Fish Might Be Able to Distinguish Color More Effectively Than Humans",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211013152206.htm"
+            },
+            {
+                "_id": 3,
+                "title": "Plant-Eating Lizards on the Cusp of Tooth Evolution",
+                "description": "Plant-Eating Lizards on the Cusp of Tooth Evolution",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211015184314.htm"
+            },
+            {
+                "_id": 4,
+                "title": "Leprosy Confirmed in Wild Chimpanzees",
+                "description": "Leprosy Confirmed in Wild Chimpanzees",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211013114023.htm"
+            },
+            {
+                "_id": 5,
+                "title": "Novel Habitats Created by Non-Native Mangrove Trees May Inform the Future Management of Some Invasive Species",
+                "description": "Novel Habitats Created by Non-Native Mangrove Trees May Inform the Future Management of Some Invasive Species",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211012112244.htm"
+            },
+            {
+                "_id": 6,
+                "title": "Man's Best Friend Could Be a Jaguar's Next Meal: A Case Study from the Mexican Caribbean",
+                "description": "Man's Best Friend Could Be a Jaguar's Next Meal: A Case Study from the Mexican Caribbean",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211011091324.htm"
+            },
+            {
+                "_id": 7,
+                "title": "The Climate-Driven Mass Extinction No One Had Seen",
+                "description": "The Climate-Driven Mass Extinction No One Had Seen",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211007145826.htm"
+            },
+            {
+                "_id": 8,
+                "title": "Mammals on the Menu: Snake Dietary Diversity Exploded After Mass Extinction 66 Million Years Ago",
+                "description": "Mammals on the Menu: Snake Dietary Diversity Exploded After Mass Extinction 66 Million Years Ago",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211014141902.htm"
+            },
+            {
+                "_id": 9,
+                "title": "Early Modern Human from Southeast Asia Adapted to a Rainforest Environment",
+                "description": "Early Modern Human from Southeast Asia Adapted to a Rainforest Environment",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211014141955.htm"
+            },
+            {
+                "_id": 10,
+                "title": "Underwater Gardens Boost Coral Diversity to Stave Off \u2018biodiversity Meltdown\u2019",
+                "description": "Underwater Gardens Boost Coral Diversity to Stave Off \u2018biodiversity Meltdown\u2019",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211013152203.htm"
+            },
+            {
+                "_id": 11,
+                "title": "Primates\u2019 Ancestors May Have Left Trees to Survive Asteroid",
+                "description": "Primates\u2019 Ancestors May Have Left Trees to Survive Asteroid",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211013114039.htm"
+            },
+            {
+                "_id": 12,
+                "title": "The US was on the verge of passing real climate policy. Then Manchin happened.",
+                "description": "The Clean Electricity Performance Program would have put America's utilities on track to producing 100 percent clean electricity by 2035.",
+                "link": "https://grist.org/politics/the-us-was-on-the-verge-of-passing-real-climate-policy-then-manchin-happened/"
+            },
+            {
+                "_id": 13,
+                "title": "Hand Soap: The Environmental Impact of Washing Your Hands",
+                "description": "For something that you use to get clean, most hand soaps have a pretty nasty...\nThe post Hand Soap: The Environmental Impact of Washing Your Hands appeared first on Earth911.",
+                "link": "https://earth911.com/how-and-buy/hand-soap-environmental-impact/"
+            },
+            {
+                "_id": 14,
+                "title": "Alumni Spotlight: Sharelle Pampo Copple",
+                "description": "Copple, a recent alumna of the SUSC program, shares how her experiences at Columbia have helped her make an impact on climate change research.",
+                "link": "https://news.climate.columbia.edu/2021/10/19/alumni-spotlight-sharelle-pampo-copple/"
+            },
+            {
+                "_id": 15,
+                "title": "'Burn now, pay later'",
+                "description": "'Burn now, pay later' \n\nChannel\nNews\n\nbrendan\n19th October 2021\n\nTeaser Media\n\n\n\n",
+                "link": "https://theecologist.org/2021/oct/19/burn-now-pay-later"
+            },
+            {
+                "_id": 16,
+                "title": "Science Museum strikes \u2018astonishing\u2019 new sponsorship deal with coal giant Adani",
+                "description": "Agreement comes weeks after protests and resignation of board member amid huge backlash against Shell \u2018greenwashing\u2019 exhibition",
+                "link": "https://www.independent.co.uk/climate-change/news/science-museum-adani-coal-boris-b1940988.html"
+            },
+            {
+                "_id": 17,
+                "title": "Ancient driftwood tracks 500 years of Arctic warming and sea ice",
+                "description": "A new study reconstructs the path of frozen trees as they made their way across the Arctic Ocean over 500 years, giving scientists a unique look into changes in sea ice and currents over the last half millennium. By dating and tracing pieces of driftwood on beaches in Svalbard, Norway's archipelago in the Arctic Circle, scientists have determined where these fallen trees floated.",
+                "link": "https://www.sciencedaily.com/releases/2021/10/211019120150.htm"
+            }
+        ],
+        "links": [
+            "https://www.sciencedaily.com/news/plants_animals/animals/",
+            "https://www.sciencedaily.com/news/plants_animals/endangered_animals/",
+            "https://www.sciencedaily.com/news/plants_animals/extinction/"
+        ],
+        "rss": [
+            "https://grist.org/feed/",
+            "http://earth911.com/feed/",
+            "https://news.climate.columbia.edu/feed/",
+            "https://theecologist.org/whats_new/feed",
+            "https://www.independent.co.uk/climate-change/news/rss",
+            "https://www.sciencedaily.com/rss/top/environment.xml"
+        ]
+    },
+    "reports": {
+        "static": [
+            {
+                "_id": 0,
+                "title": "Digital Ecosystems: Ecosystem-Oriented Architectures",
+                "description": "We view Digital Ecosystems to be the digital counterparts of biological\necosystems. Here, we are concerned with the creation of these Digital\nEcosystems, exploiting the self-organising properties of biological ecosystems\nto evolve high-level software applications. Therefore, we created the Digital\nEcosystem, a novel optimisation technique inspired by biological ecosystems,\nwhere the optimisation works at two levels: a first optimisation, migration of\nagents which are distributed in a decentralised peer-to-peer network, operating\ncontinuously in time; this process feeds a second optimisation based on\nevolutionary computing that operates locally on single peers and is aimed at\nfinding solutions to satisfy locally relevant constraints. The Digital\nEcosystem was then measured experimentally through simulations, with measures\noriginating from theoretical ecology, evaluating its likeness to biological\necosystems. This included its responsiveness to requests for applications from\nthe user base, as a measure of the ecological succession (ecosystem maturity).\nOverall, we have advanced the understanding of Digital Ecosystems, creating\nEcosystem-Oriented Architectures where the word ecosystem is more than just a\nmetaphor.",
+                "link": "http://arxiv.org/abs/1112.0204v1"
+            },
+            {
+                "_id": 1,
+                "title": "How do Software Ecosystems Co-Evolve? A view from OpenStack and beyond",
+                "description": "Much research that analyzes the evolution of a software ecosystem is confined\nto its own boundaries. Evidence shows, however, that software ecosystems\nco-evolve independently with other software ecosystems. In other words,\nunderstanding the evolution of a software ecosystem requires an especially\nastute awareness of its competitive landscape and much consideration for other\nsoftware ecosystems in related markets. A software ecosystem does not evolve in\ninsulation but with other software ecosystems. In this research, we analyzed\nthe OpenStack software ecosystem with a focal perspective that attempted to\nunderstand its evolution as a function of other software ecosystems. We\nattempted to understand and explain the evolution of OpenStack in relation to\nother software ecosystems in the cloud computing market. Our findings add to\ntheoretical knowledge in software ecosystems by identifying and discussing\nseven different mechanisms by which software ecosystems mutually influence each\nother: sedimentation and embeddedness of business relationships, strategic\nmanagement of the portfolio of business relationships, firms values and\nreputation as a partner, core technological architecture, design of the APIs,\ncompetitive replication of functionality and multi-homing. Research addressing\nthe evolution of software ecosystem should, therefore, acknowledge that\nsoftware ecosystems entangle with other software ecosystems in multiple ways,\neven with competing ones. A rigorous analysis of the evolution of a software\necosystem should not be solely confined to its inner boundaries.",
+                "link": "http://arxiv.org/abs/1808.06663v1"
+            },
+            {
+                "_id": 2,
+                "title": "Biology of Applied Digital Ecosystems",
+                "description": "A primary motivation for our research in Digital Ecosystems is the desire to\nexploit the self-organising properties of biological ecosystems. Ecosystems are\nthought to be robust, scalable architectures that can automatically solve\ncomplex, dynamic problems. However, the biological processes that contribute to\nthese properties have not been made explicit in Digital Ecosystems research.\nHere, we discuss how biological properties contribute to the self-organising\nfeatures of biological ecosystems, including population dynamics, evolution, a\ncomplex dynamic environment, and spatial distributions for generating local\ninteractions. The potential for exploiting these properties in artificial\nsystems is then considered. We suggest that several key features of biological\necosystems have not been fully explored in existing digital ecosystems, and\ndiscuss how mimicking these features may assist in developing robust, scalable\nself-organising architectures. An example architecture, the Digital Ecosystem,\nis considered in detail. The Digital Ecosystem is then measured experimentally\nthrough simulations, with measures originating from theoretical ecology, to\nconfirm its likeness to a biological ecosystem. Including the responsiveness to\nrequests for applications from the user base, as a measure of the 'ecological\nsuccession' (development).",
+                "link": "http://arxiv.org/abs/0712.4153v2"
+            },
+            {
+                "_id": 3,
+                "title": "Equivalence relations on ecosystems",
+                "description": "In abstract terms, ecosystem ecology is about determining when two\necosystems, superficially different, are alike in some deeper way. An external\nobserver can choose any ecosystem property as being important. In contrast, two\necosystems are equivalent from the point of view of the organisms they contain\nif and only if for each species, the proportional population growth rate does\nnot differ between the ecosystems. Comparative studies of ecosystems should\ntherefore focus on patterns in proportional population growth rates, rather\nthan patterns in other properties such as relative abundances. Popular\nactivities such as measuring dissimilarity, and representing dissimilarity via\nordination, can then be done from the point of view of the organisms in\necosystems. Summarizing the state of an ecosystem under this approach remains\nchallenging. In general, the dynamics on equivalence classes of ecosystems\ndefined in this way are structurally different from the dynamics of ecosystems\nas seen by an external observer. This may limit the extent to which natural\nselection can act on ecosystem structure.",
+                "link": "http://arxiv.org/abs/1707.03302v1"
+            },
+            {
+                "_id": 4,
+                "title": "Not even wrong: The spurious link between biodiversity and ecosystem\n  functioning",
+                "description": "Resolving the relationship between biodiversity and ecosystem functioning has\nbeen one of the central goals of modern ecology. Early debates about the\nrelationship were finally resolved with the advent of a statistical\npartitioning scheme that decomposed the biodiversity effect into a \"selection\"\neffect and a \"complementarity\" effect. We prove that both the biodiversity\neffect and its statistical decomposition into selection and complementarity are\nfundamentally flawed because these methods use a na\\\"ive null expectation based\non neutrality, likely leading to an overestimate of the net biodiversity\neffect, and they fail to account for the nonlinear abundance-ecosystem\nfunctioning relationships observed in nature. Furthermore, under such\nnonlinearity no statistical scheme can be devised to partition the biodiversity\neffects. We also present an alternative metric providing a more reasonable\nestimate of biodiversity effect. Our results suggest that all studies conducted\nsince the early 1990s likely overestimated the positive effects of biodiversity\non ecosystem functioning.",
+                "link": "http://arxiv.org/abs/1808.05643v1"
+            },
+            {
+                "_id": 5,
+                "title": "InBiodiv-O: An Ontology for Indian Biodiversity Knowledge Management",
+                "description": "To present the biodiversity information, a semantic model is required that\nconnects all kinds of data about living creatures and their habitats. The model\nmust be able to encode human knowledge for machines to be understood. Ontology\noffers the richest machine-interpretable (rather than just machine-processable)\nand explicit semantics that are being extensively used in the biodiversity\ndomain. Various ontologies are developed for the biodiversity domain however a\nreview of the current landscape shows that these ontologies are not capable to\ndefine the Indian biodiversity information though India is one of the\nmegadiverse countries. To semantically analyze the Indian biodiversity\ninformation, it is crucial to build an ontology that describes all the\nessential terms of this domain from the unstructured format of the data\navailable on the web. Since, the curation of the ontologies heavily depends on\nthe domain where these are implemented hence there is no ideal methodology is\ndefined yet to be ready for universal use. The aim of this article is to\ndevelop an ontology that semantically encodes all the terms of Indian\nbiodiversity information in all its dimensions based on the proposed\nmethodology. The comprehensive evaluation of the proposed ontology depicts that\nontology is well built in the specified domain.",
+                "link": "http://arxiv.org/abs/2108.09372v1"
+            },
+            {
+                "_id": 6,
+                "title": "Possible Origin of Stagnation and Variability of Earth's Biodiversity",
+                "description": "The magnitude and variability of Earth's biodiversity have puzzled scientists\never since paleontologic fossil databases became available. We identify and\nstudy a model of interdependent species where both endogenous and exogenous\nimpacts determine the nonstationary extinction dynamics. The framework provides\nan explanation for the qualitative difference of marine and continental\nbiodiversity growth. In particular, the stagnation of marine biodiversity may\nresult from a global transition from an imbalanced to a balanced state of the\nspecies dependency network. The predictions of our framework are in agreement\nwith paleontologic databases.",
+                "link": "http://arxiv.org/abs/1410.2421v1"
+            },
+            {
+                "_id": 7,
+                "title": "High Order Singular Value Decomposition for Plant Biodiversity\n  Estimation",
+                "description": "We propose a new method to estimate plant biodiversity with R{\\'e}nyi and Rao\nindexes through the so called High Order Singular Value Decomposition (HOSVD)\nof tensors. Starting from NASA multispectral images we evaluate biodiversity\nand we compare original biodiversity estimates with those realised via the\nHOSVD compression methods for big data. Our strategy turns out to be extremely\npowerful in terms of storage memory and precision of the outcome. The obtained\nresults are so promising that we can support the efficiency of our method in\nthe ecological framework.",
+                "link": "http://arxiv.org/abs/1911.13076v1"
+            },
+            {
+                "_id": 8,
+                "title": "Existence, multiplicity and stability of endemic states for an\n  age-structured S-I epidemic model",
+                "description": "We study an S--I type epidemic model in an age-structured population, with\nmortality due to the disease. A threshold quantity is found that controls the\nstability of the disease-free equilibrium and guarantees the existence of an\nendemic equilibrium. We obtain conditions on the age-dependence of the\nsusceptibility to infection that imply the uniqueness of the endemic\nequilibrium. An example with two endemic equilibria is shown. Finally, we\nanalyse numerically how the stability of the endemic equilibrium is affected by\nextra-mortality and by the possible periodicities induced by the demographic\nage-structure.",
+                "link": "http://arxiv.org/abs/0806.3424v2"
+            },
+            {
+                "_id": 9,
+                "title": "Large number of endemic equilibria for disease transmission models in\n  patchy environment",
+                "description": "We show that disease transmission models in a spatially heterogeneous\nenvironment can have a large number of coexisting endemic equilibria. A general\ncompartmental model is considered to describe the spread of an infectious\ndisease in a population distributed over several patches. For disconnected\nregions, many boundary equilibria may exist with mixed disease free and endemic\ncomponents, but these steady states usually disappear in the presence of\nspatial dispersal. However, if backward bifurcations can occur in the regions,\nsome partially endemic equilibria of the disconnected system move into the\ninterior of the nonnegative cone and persist with the introduction of mobility\nbetween the patches. We provide a mathematical procedure that precisely\ndescribes in terms of the local reproduction numbers and the connectivity\nnetwork of the patches, whether a steady state of the disconnected system is\npreserved or ceases to exist for low volumes of travel. Our results are\nillustrated on a patchy HIV transmission model with subthreshold endemic\nequilibria and backward bifurcation. We demonstrate the rich dynamical behavior\n(i.e., creation and destruction of steady states) and the presence of multiple\nstable endemic equilibria for various connection networks.",
+                "link": "http://arxiv.org/abs/1403.8032v1"
+            },
+            {
+                "_id": 10,
+                "title": "The role of disease cycles in the endemicity of infectious diseases",
+                "description": "Vector-borne diseases with reservoir cycles are complex to understand because\nnew infections come from contacts of the vector with humans and different\nreservoirs. In this scenario, the basic reproductive number $\\mathcal{R}^h_0$\nof the system where the reservoirs are not included could turn out to be less\nthan one, yet, an endemic equilibrium be observed. Indeed, when the reservoirs\nare taken back into account, the basic reproductive number $\\mathcal{R}_0^r$,\nof only vectors and reservoirs, explains the endemic state. Furthermore,\nreservoirs cycles with a small basic reproductive number could contribute to\nreach an endemic state in the human cycle. Therefore, when controlling for the\nspread of a disease, it could not be enough to focus on specific reservoir\ncycles or only on the vector. In this work, we created a simple epidemiological\nmodel with a network of reservoirs where $\\mathcal{R}_0^r$ is a bifurcation\nparameter of the system, explaining disease endemicity in the absence of a\nstrong reservoir cycle. This simple model may help to explain transmission\ndynamics of diseases such as Chagas, Leishmaniasis and Dengue.",
+                "link": "http://arxiv.org/abs/1702.02876v1"
+            },
+            {
+                "_id": 11,
+                "title": "On the Stability of the Endemic Equilibrium of A Discrete-Time Networked\n  Epidemic Model",
+                "description": "Networked epidemic models have been widely adopted to describe propagation\nphenomena. The endemic equilibrium of these models is of great significance in\nthe field of viral marketing, innovation dissemination, and information\ndiffusion. However, its stability conditions have not been fully explored. In\nthis paper we study the stability of the endemic equilibrium of a networked\nSusceptible-Infected-Susceptible (SIS) epidemic model with heterogeneous\ntransition rates in a discrete-time manner. We show that the endemic\nequilibrium, if it exists, is asymptotically stable for any nontrivial initial\ncondition. Under mild assumptions on initial conditions, we further prove that\nduring the spreading process there exists no overshoot with respect to the\nendemic equilibrium. Finally, we conduct numerical experiments on real-world\nnetworks to demonstrate our results.",
+                "link": "http://arxiv.org/abs/2001.07451v1"
+            },
+            {
+                "_id": 12,
+                "title": "Correcting for the Effects of Interstellar Extinction",
+                "description": "This paper addresses the issue of how best to correct astronomical data for\nthe wavelength-dependent effects of Galactic interstellar extinction. The main\ngeneral features of extinction from the IR through the UV are reviewed, along\nwith the nature of observed spatial variations. The enormous range of\nextinction properties found in the Galaxy, particularly in the UV spectral\nregion, is illustrated. Fortunately, there are some tight constraints on the\nwavelength dependence of extinction and some general correlations between\nextinction curve shape and interstellar environment. These relationships\nprovide some guidance for correcting data for the effects of extinction.\nSeveral strategies for dereddening are discussed along with estimates of the\nuncertainties inherent in each method. In the Appendix, a new derivation of the\nwavelength dependence of an average Galactic extinction curve from the IR\nthrough the UV is presented, along with a new estimate of how this extinction\nlaw varies with the parameter R = A(V)/E(B-V). These curves represent the true\nmonochromatic wavelength dependence of extinction and, as such, are suitable\nfor dereddening IR--UV spectrophotometric data of any resolution, and can be\nused to derive extinction relations for any photometry system.",
+                "link": "http://arxiv.org/abs/astro-ph/9809387v1"
+            },
+            {
+                "_id": 13,
+                "title": "Multiple extinction routes in stochastic population models",
+                "description": "Isolated populations ultimately go extinct because of the intrinsic noise of\nelementary processes. In multi-population systems extinction of a population\nmay occur via more than one route. We investigate this generic situation in a\nsimple predator-prey (or infected-susceptible) model. The predator and prey\npopulations may coexist for a long time but ultimately both go extinct. In the\nfirst extinction route the predators go extinct first, whereas the prey thrive\nfor a long time and then also go extinct. In the second route the prey go\nextinct first causing a rapid extinction of the predators. Assuming large\nsub-population sizes in the coexistence state, we compare the probabilities of\neach of the two extinction routes and predict the most likely path of the\nsub-populations to extinction. We also suggest an effective three-state master\nequation for the probabilities to observe the coexistence state, the\npredator-free state and the empty state.",
+                "link": "http://arxiv.org/abs/1112.4331v2"
+            },
+            {
+                "_id": 14,
+                "title": "Branching random walks with uncountably many extinction probability\n  vectors",
+                "description": "Given a branching random walk on a set $X$, we study its extinction\nprobability vectors $\\mathbf q(\\cdot,A)$. Their components are the probability\nthat the process goes extinct in a fixed $A\\subseteq X$, when starting from a\nvertex $x\\in X$. The set of extinction probability vectors (obtained letting\n$A$ vary among all subsets of $X$) is a subset of the set of the fixed points\nof the generating function of the branching random walk. In particular here we\nare interested in the cardinality of the set of extinction probability vectors.\nWe prove results which allow to understand whether the probability of\nextinction in a set $A$ is different from the one of extinction in another set\n$B$. In many cases there are only two possible extinction probability vectors\nand so far, in more complicated examples, only a finite number of distinct\nextinction probability vectors had been explicitly found. Whether a branching\nrandom walk could have an infinite number of distinct extinction probability\nvectors was not known. We apply our results to construct examples of branching\nrandom walks with uncountably many distinct extinction probability vectors.",
+                "link": "http://arxiv.org/abs/1806.04101v1"
+            },
+            {
+                "_id": 15,
+                "title": "A three-dimensional Galactic extinction model",
+                "description": "A large-scale three-dimensional model of Galactic extinction is presented\nbased on the Galactic dust distribution model of Drimmel and Spergel (2001).\nThe extinction A_V to any point within the Galactic disk can be quickly deduced\nusing a set of three-dimensional cartesian grids. Extinctions from the model\nare compared to empirical extinction measures, including lines-of-sight in and\nnear the Galactic plane using optical and NIR extinction measures; in\nparticular we show how extinction can be derived from NIR color-magnitude\ndiagrams in the Galactic plane to a distance of 8 kiloparsec.",
+                "link": "http://arxiv.org/abs/astro-ph/0307273v2"
+            },
+            {
+                "_id": 16,
+                "title": "Deploying Technology to Save Endangered Languages",
+                "description": "Computer scientists working on natural language processing, native speakers\nof endangered languages, and field linguists to discuss ways to harness\nAutomatic Speech Recognition, especially neural networks, to automate\nannotation, speech tagging, and text parsing on endangered languages.",
+                "link": "http://arxiv.org/abs/1908.08971v2"
+            },
+            {
+                "_id": 17,
+                "title": "OCR Post Correction for Endangered Language Texts",
+                "description": "There is little to no data available to build natural language processing\nmodels for most endangered languages. However, textual data in these languages\noften exists in formats that are not machine-readable, such as paper books and\nscanned images. In this work, we address the task of extracting text from these\nresources. We create a benchmark dataset of transcriptions for scanned books in\nthree critically endangered languages and present a systematic analysis of how\ngeneral-purpose OCR tools are not robust to the data-scarce setting of\nendangered languages. We develop an OCR post-correction method tailored to ease\ntraining in this data-scarce setting, reducing the recognition error rate by\n34% on average across the three languages.",
+                "link": "http://arxiv.org/abs/2011.05402v1"
+            },
+            {
+                "_id": 18,
+                "title": "When Word Embeddings Become Endangered",
+                "description": "Big languages such as English and Finnish have many natural language\nprocessing (NLP) resources and models, but this is not the case for\nlow-resourced and endangered languages as such resources are so scarce despite\nthe great advantages they would provide for the language communities. The most\ncommon types of resources available for low-resourced and endangered languages\nare translation dictionaries and universal dependencies. In this paper, we\npresent a method for constructing word embeddings for endangered languages\nusing existing word embeddings of different resource-rich languages and the\ntranslation dictionaries of resource-poor languages. Thereafter, the embeddings\nare fine-tuned using the sentences in the universal dependencies and aligned to\nmatch the semantic spaces of the big languages; resulting in cross-lingual\nembeddings. The endangered languages we work with here are Erzya, Moksha,\nKomi-Zyrian and Skolt Sami. Furthermore, we build a universal sentiment\nanalysis model for all the languages that are part of this study, whether\nendangered or not, by utilizing cross-lingual word embeddings. The evaluation\nconducted shows that our word embeddings for endangered languages are\nwell-aligned with the resource-rich languages, and they are suitable for\ntraining task-specific models as demonstrated by our sentiment analysis model\nwhich achieved a high accuracy. All our cross-lingual word embeddings and the\nsentiment analysis model have been released openly via an easy-to-use Python\nlibrary.",
+                "link": "http://arxiv.org/abs/2103.13275v1"
+            },
+            {
+                "_id": 19,
+                "title": "Endangered Languages are not Low-Resourced!",
+                "description": "The term low-resourced has been tossed around in the field of natural\nlanguage processing to a degree that almost any language that is not English\ncan be called \"low-resourced\"; sometimes even just for the sake of making a\nmundane or mediocre paper appear more interesting and insightful. In a field\nwhere English is a synonym for language and low-resourced is a synonym for\nanything not English, calling endangered languages low-resourced is a bit of an\noverstatement. In this paper, I inspect the relation of the endangered with the\nlow-resourced from my own experiences.",
+                "link": "http://arxiv.org/abs/2103.09567v1"
+            },
+            {
+                "_id": 20,
+                "title": "Cross-Domain Adaptation for Animal Pose Estimation",
+                "description": "In this paper, we are interested in pose estimation of animals. Animals\nusually exhibit a wide range of variations on poses and there is no available\nanimal pose dataset for training and testing. To address this problem, we build\nan animal pose dataset to facilitate training and evaluation. Considering the\nheavy labor needed to label dataset and it is impossible to label data for all\nconcerned animal species, we, therefore, proposed a novel cross-domain\nadaptation method to transform the animal pose knowledge from labeled animal\nclasses to unlabeled animal classes. We use the modest animal pose dataset to\nadapt learned knowledge to multiple animals species. Moreover, humans also\nshare skeleton similarities with some animals (especially four-footed mammals).\nTherefore, the easily available human pose dataset, which is of a much larger\nscale than our labeled animal dataset, provides important prior knowledge to\nboost up the performance on animal pose estimation. Experiments show that our\nproposed method leverages these pieces of prior knowledge well and achieves\nconvincing results on animal pose estimation.",
+                "link": "http://arxiv.org/abs/1908.05806v2"
+            },
+            {
+                "_id": 21,
+                "title": "PaSe: An Extensible and Inspectable DSL for Micro-Animations",
+                "description": "This paper presents PaSe, an extensible and inspectable DSL embedded in\nHaskell for expressing micro-animations. The philosophy of PaSe is to compose\nanimations based on sequential and parallel composition of smaller animations.\nThis differs from other animation libraries that focus more on sequential\ncomposition and have only limited forms of parallel composition. To provide\nsimilar flexibility as other animation libraries, PaSe features extensibility\nof operations and inspectability of animations. We present the features of PaSe\nwith a to-do list application, discuss the PaSe implementation, and argue that\nthe callback style of extensibility is detrimental for correctly combining PaSe\nfeatures. We contrast with the GreenSock Animation Platform, a\nprofessional-grade and widely used JavaScript animation library, to illustrate\nthis point.",
+                "link": "http://arxiv.org/abs/2002.02171v1"
+            },
+            {
+                "_id": 22,
+                "title": "AP-10K: A Benchmark for Animal Pose Estimation in the Wild",
+                "description": "Accurate animal pose estimation is an essential step towards understanding\nanimal behavior, and can potentially benefit many downstream applications, such\nas wildlife conservation. Previous works only focus on specific animals while\nignoring the diversity of animal species, limiting the generalization ability.\nIn this paper, we propose AP-10K, the first large-scale benchmark for general\nanimal pose estimation, to facilitate the research in animal pose estimation.\nAP-10K consists of 10,015 images collected and filtered from 23 animal families\nand 60 species following the taxonomic rank and high-quality keypoint\nannotations labeled and checked manually. Based on AP-10K, we benchmark\nrepresentative pose estimation models on the following three tracks: (1)\nsupervised learning for animal pose estimation, (2) cross-domain transfer\nlearning from human pose estimation to animal pose estimation, and (3) intra-\nand inter-family domain generalization for unseen animals. The experimental\nresults provide sound empirical evidence on the superiority of learning from\ndiverse animals species in terms of both accuracy and generalization ability.\nIt opens new directions for facilitating future research in animal pose\nestimation. AP-10k is publicly available at\nhttps://github.com/AlexTheBad/AP10K.",
+                "link": "http://arxiv.org/abs/2108.12617v1"
+            },
+            {
+                "_id": 23,
+                "title": "A Minimum Spanning Tree Representation of Anime Similarities",
+                "description": "In this work, a new way to represent Japanese animation (anime) is presented.\nWe applied a minimum spanning tree to show the relation between anime. The\ndistance between anime is calculated through three similarity measurements,\nnamely crew, score histogram, and topic similarities. Finally, the centralities\nare also computed to reveal the most significance anime. The result shows that\nthe minimum spanning tree can be used to determine the similarity anime.\nFurthermore, by using centralities calculation, we found some anime that are\nsignificant to others.",
+                "link": "http://arxiv.org/abs/1606.03048v2"
+            },
+            {
+                "_id": 24,
+                "title": "Naturalness as a reasonable scientific principle in fundamental physics",
+                "description": "I aim to clarify the physical content and significance of naturalness.\nPhysicists' earliest understanding of naturalness, as an autonomy of scales\n(AoS) requirement provides the most cogent definition of naturalness and I will\nassert that i) this provides a uniform notion which undergirds a myriad\nprominent naturalness conditions, ii) this is a reasonable criterion to impose\non EFTs and iii) the successes and violations of naturalness are best\nunderstood when adhering to this notion of naturalness. I argue that this\nprinciple is neither an aesthetic nor a sociologically-influenced principle. I\ncontend that naturalness may only be plausibly argued to be an\naesthetic/sociological principle when formal measures of naturalness and their\nuse in physics communities are conflated with the central dogma of naturalness\n- the former may indeed be argued to be sociologically-influenced and somewhat\narbitrary - but these formal measures of naturalness are in fact less\nsuccessful than AoS naturalness. I put forward arguments as to why AoS\nnaturalness is well-defined and why it was reasonable for physicists to endorse\nthis naturalness principle on both theoretical and empirical grounds.\n  Up to date, no compelling reasons have appeared as to why the laws of nature\nshould generically decoupling into quasi-autonomous physical domains. A\ndecoupling of scales in the quantum realm is often claimed to be entailed by\nthe Decoupling Theorem (Cao and Schweber (1993)), yet I will show that this\ntheorem is too weak to underwrite quasi-autonomous physical domains in quantum\nfield theories because one should additionally impose that parameters be\nnatural. Violations of naturalness would then have ontological import -\nunnatural parameters would not be accurately described by EFTs but rather by\nfield theories exhibiting some kind of UV/IR interplay.",
+                "link": "http://arxiv.org/abs/1906.03036v1"
+            },
+            {
+                "_id": 25,
+                "title": "Natural Number Arithmetic in the Theory of Finite Sets",
+                "description": "We describe a theory of finite sets, and investigate the analogue of\nDedekind's theory of natural number systems (simply infinite systems) in this\ntheory. Unlike the infinitary case, in our theory, natural number systems come\nin differing lengths and with different closure properties. We give examples of\nnatural number systems incomparable in length; we define hierarchies of natural\nnumber systems closed under increasingly powerful functions; and we describe a\nmethod by which to construct natural number systems with given closure\nproperties. These natural number systems form natural models for various\nsystems of weak arithmetic.",
+                "link": "http://arxiv.org/abs/0711.2922v2"
+            },
+            {
+                "_id": 26,
+                "title": "Probabilistic Naturalness Measure for Dipole Moments due to New Physics",
+                "description": "We introduce a probabilistic measure of naturalness (naturalness level) to\nfix naturalness bounds quantitatively. It is applied to the anomalous magnetic\nmoments and the electric dipole moments due to new physics.",
+                "link": "http://arxiv.org/abs/hep-ph/0307301v1"
+            },
+            {
+                "_id": 27,
+                "title": "Natural boundary of Dirichlet series",
+                "description": "We prove some conditions on the existence of natural boundaries of Dirichlet\nseries. We show that generically the presumed boundary is the natural one. We\nalso give an application of natural boundaries in determining asymptotic\nresults.",
+                "link": "http://arxiv.org/abs/0704.3370v1"
+            }
+        ],
+        "keywords": [
+            "ecosystem",
+            "biodiversity",
+            "endemic",
+            "extinction",
+            "endangered",
+            "animals",
+            "nature"
+        ]
+    }
 }

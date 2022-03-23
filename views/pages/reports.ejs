@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <%- include('../partials/head'); %>
+    <head>
+        <%- include('../partials/head'); %>
 
-    <title>Reports mainly about Biodiversity</title>
-  </head>
-  <body>
-    <%- include('../partials/logo'); %>
+        <title>Reports mainly about Biodiversity</title>
+    </head>
+    <body>
+        <%- include('../partials/logo'); %>
 
-    <div class="reports">
-      <% if (locals.data) { for (let i = 0; i < data.length; i++) { %>
-      <div class="card mb-3" style="width: 50%">
-        <div class="row g-0">
-          <div class="col-md-8" style="width: 100%">
-            <div class="card-body">
-              <h5 class="card-title"><b><%=data[i].title%></b></h5>
-              <p class="card-text"><%=data[i].description%></p>
-              <a
-                href="<%=data[i].link%>"
-                target="_blank"
-                class="btn btn-success"
-                >Visit it!</a
-              >
+        <div class="reports">
+            <% if (locals.data) { for (let i = 0; i < data.length; i++) { %>
+            <div class="card mb-3" style="width: 50%">
+                <div class="row g-0">
+                    <div class="col-md-8" style="width: 100%">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <b><%=data[i].title%></b>
+                            </h5>
+                            <hr />
+                            <p class="card-text"><%=data[i].description%></p>
+                            <a
+                                href="<%=data[i].link%>"
+                                target="_blank"
+                                class="btn btn-success"
+                                >Visit it!</a
+                            >
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <%} }%>
         </div>
-      </div>
-      <%} }%>
-    </div>
-    <form method="get" action="/reports">
-      <%for(let i = 0; i < locals.totalPages; i++) {%>
-      <input
-        class="btn-success btn-sm"
-        type="submit"
-        name="page"
-        value="<%=i + 1%>"
-      />
-      <%}%>
-    </form>
-    <footer><%- include('../partials/footer'); %></footer>
-  </body>
+        <form method="get" action="/reports">
+            <%for(let i = 0; i < locals.totalPages; i++) {%>
+            <input
+                class="btn-primary btn-sm"
+                type="submit"
+                name="page"
+                value="<%=i + 1%>"
+            />
+            <%}%>
+        </form>
+        <footer><%- include('../partials/footer'); %></footer>
+    </body>
 </html>
